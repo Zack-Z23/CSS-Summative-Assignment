@@ -1,0 +1,106 @@
+/* This controls how everything looks inside the body tag */
+body
+{
+    background-color: #ad0000;
+    font-size:20px;
+    margin: 5% 10% 5% 10%;
+}
+/* This allows you to edit how the Heading 1 looks like. */
+h1
+{
+    background-color: ghostwhite;
+    color: #393939;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin:10px;
+ 
+}
+/* This is an ID tag for the p tag */
+p
+{
+    position: static;
+    word-spacing: 140%;
+    letter-spacing: 140%;
+    background-color: ghostwhite;
+    color: black;
+    margin: 20px 10px 0px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 15px;
+}
+#mainparahome
+{
+    margin: 20px 10px 0px 10px
+}
+/* Unlike naav ul this controls/edits all ul tags not only ones inside nav tags */
+ul
+{
+    display: inline-block;
+   
+
+    animation: bounce;
+    animation-duration: 5s;
+    list-style: none;
+}
+/* This nav a hover shows how the link looks when the clients cursor goes over the link. */
+nav a:hover
+{
+background-color: darkred;
+color: #DE1738;
+
+}
+/* This nav a visited tag allows me to change how the link looks after it has been visited. */
+nav a:visited
+{
+    color: #DE1738;
+
+}
+/*This nav ul tag alows me to edit the ul tags and whatever is inside them  */
+nav ul
+{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 7px;
+    display: inline-block;
+   
+
+    animation: bounce;
+    animation-duration: 5s;
+
+}
+/* This li tag allows me to edit li tags and whatever is in them */
+li 
+{
+    background-color: ghostwhite;
+    padding: 5px;
+    margin: 4px;
+    font-size: 20px;
+    border-radius: 7px;
+    display: inline-block;
+   
+
+    animation: bounce;
+    animation-duration: 5s;
+}
+/* This is Img tag alows to edit the margin,padding,border, height and width. */
+img
+{
+    transition: transform 4s;
+    margin: 10px;
+    border: 20px;
+    border-style: groove;
+    height: 80vh;
+    width: 75vw;
+    background-color: #ad0000;
+}
+/* When your mouse hovers over the image than it excutes the code. */
+img:hover{
+ transform: scale(1.1);   
+}
+
