@@ -11,12 +11,12 @@ h1
     background-color: ghostwhite;
     color: #393939;
     font-size: 45px;
-    font-weight: bold;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
     text-transform: uppercase;
     text-align: center;
-    margin: 5px;
+    margin:5px;
  
 }
 /* This is an ID tag for the p tag */
@@ -43,7 +43,7 @@ ul
     display: inline-block;
    
 
-    animation: bounce;
+    animation: flipInX;
     animation-duration: 5s;
     list-style: none;
 }
@@ -70,7 +70,8 @@ nav ul
     display: inline-block;
    
 
-    animation: bounce;
+
+    animation: flipInX;
     animation-duration: 5s;
 
 }
@@ -85,7 +86,7 @@ li
     display: inline-block;
    
 
-    animation: bounce;
+    animation: flipInX;
     animation-duration: 5s;
 }
 /* This is Img tag alows to edit the margin,padding,border, height and width. */
