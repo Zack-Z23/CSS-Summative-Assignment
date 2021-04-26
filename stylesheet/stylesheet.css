@@ -44,7 +44,7 @@ ul
    
 
     animation: flipInX;
-    animation-duration: 5s;
+    animation-duration: 3s;
     list-style: none;
 }
 /* This nav a hover shows how the link looks when the clients cursor goes over the link. */
@@ -72,7 +72,7 @@ nav ul
 
 
     animation: flipInX;
-    animation-duration: 5s;
+    animation-duration: 3s;
 
 }
 /* This li tag allows me to edit li tags and whatever is in them */
@@ -87,7 +87,7 @@ li
    
 
     animation: flipInX;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 /* This is Img tag alows to edit the margin,padding,border, height and width. */
 img
@@ -102,6 +102,12 @@ img
 }
 /* When your mouse hovers over the image than it excutes the code. */
 img:hover{
- transform: scale(1.1);   
+    box-shadow:
+    5px 5px white,
+    10px 10px white,
+    15px 15px white;
+    
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
 }
 
